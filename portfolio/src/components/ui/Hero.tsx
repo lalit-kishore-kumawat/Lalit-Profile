@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, Github, Mail } from "lucide-react";
+import { ArrowRight, Terminal, Mail } from "lucide-react";
 import Link from "next/link";
 
 export default function Hero() {
@@ -46,7 +46,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-surface hover:bg-surface-hover border border-border text-foreground px-6 py-3 rounded-lg font-medium transition-all"
             >
-              <Github className="w-4 h-4" />
+              <Terminal className="w-4 h-4" />
               GitHub
             </Link>
 

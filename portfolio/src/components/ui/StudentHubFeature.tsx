@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Database, LayoutTemplate, Activity } from "lucide-react";
+import { ExternalLink, Terminal, Database, LayoutTemplate, Activity } from "lucide-react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
@@ -91,7 +91,7 @@ export default function StudentHubFeature() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-transparent hover:bg-surface border border-border text-foreground px-6 py-3 rounded-lg font-medium transition-colors"
               >
-                <Github className="w-4 h-4" />
+                <Terminal className="w-4 h-4" />
                 Repository
               </Link>
             </div>

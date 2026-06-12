@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, Globe } from "lucide-react";
+import { Terminal, Briefcase, Mail, Globe } from "lucide-react";
 
 export default function ContactFooter() {
   const currentYear = new Date().getFullYear();
@@ -26,10 +26,10 @@ export default function ContactFooter() {
                 <Mail className="w-5 h-5" />
               </a>
               <a href="https://linkedin.com/in/lalit-kishorekumawat-27a34a352" target="_blank" rel="noopener noreferrer" className="p-3 bg-surface hover:bg-[#0077b5] hover:text-white border border-border rounded-xl transition-all">
-                <Linkedin className="w-5 h-5" />
+                <Briefcase className="w-5 h-5" />
               </a>
               <a href="https://github.com/lalit-kishore-kumawat" target="_blank" rel="noopener noreferrer" className="p-3 bg-surface hover:bg-white hover:text-black border border-border rounded-xl transition-all">
-                <Github className="w-5 h-5" />
+                <Terminal className="w-5 h-5" />
               </a>
             </div>
           </div>
